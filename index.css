@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@400;700&family=Montserrat:wght@300;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+html{
+    background-color:#181719;
+    color: #ffff;
+}
+
+
+/* The Overlay (Menu) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay */   
+    height: 0%;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    top: 0;
+    left: 0;
+    background-color: #181719; /* Black fallback color */
+    overflow-y: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  
+  /* The navigation links inside the overlay */
+  .overlay a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    padding-bottom: 32px;
+    text-decoration: none;
+    color: #ffff;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  /* Position the close button (top right corner) */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 12px;
+  }
+  .overlay .closebtn .close {
+    color: #F2F2F2;
+    font-size: 34px;
+  }
+
+
+
+  
+/* Page */
+.company-name {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 8px;
+
+    font-family:"crimson pro";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+
+.menu-btn {
+    color: #F2F2F2;
+    font-size: 34px;
+    position: absolute;
+    right: 12px;
+    top: 25px;
+}
+
+.container {
+    position: absolute;
+    top: 15%;
+    left: 20px;
+    right: 12px;
+    min-height: 100vh;
+}
+
+.subject {
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+
+    display: block;
+    margin-bottom: 10%;
+}
+
+.description {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    display: block;
+    width: 70%;
+}
+
+.welcome {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    display: inline-block;
+    margin-top:5%;
+    vertical-align: top;
+}
+.arrow {
+    font-size:29px;
+    margin-top: 3%;
+    margin-left: 1%
+}
+
+.bg-image {
+    max-width: 98%;
+    margin-top: 10%;
+}
+
+.profile {
+    position: absolute;
+    top:65%;
+    left:10%;
+    right:0;
+    align-self: center;
+    display: block;
+    background-color: #181719;
+    width: 75%;
+    min-height:30%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 15%;
+    position: absolute;
+    left:8%;
+    margin-top:4%;
+}
+.profile-name {
+    position: absolute;
+    left: 30%;
+    top: 8%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+.profile-desc {
+    color: #828282;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.article-title {
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+
+    position: absolute;
+    top: 45%;
+    left: 8%;
+}
+.footer {
+    position: absolute;
+    bottom: 2px;
+    width:100%;
+    padding-top:10%
+}
+.footer-bar {
+    display: block;
+    border: 1px solid #A9A9A9;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+    text-align: center;
+}

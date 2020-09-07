@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Interior Consultant</title>
+  <meta name="description" content="">
+  <meta name="author" content="Vivek">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="index.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <div class="header">
+    <span class="company-name">THIS INTERIOR</span>
+
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <span class="material-icons close">close</span>
+        </a>
+      
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="#"><strong>Home</strong></a>
+          <a href="#">About</a>
+          <a href="#">Collection</a>
+          <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <span class="material-icons menu-btn" onclick="openNav()">menu</span>
+  </div>
+
+</head>
+    <body>
+        <div class="container">
+            <span class="subject">Modern Interior</span>
+            <span class="description">A full-Service residential 
+                & commercial interior design and staging company 
+                offering professional organizing & eco-services.</span>
+            <span class="welcome">welcome</span>
+            <span class="material-icons arrow">arrow_right_alt</span>
+            
+            <div class="post-container">
+                <img class="bg-image" src="./assets/photo1.png" alt="Architecture">
+                <div class="profile">
+                    <img class="profile-picture" src="./assets/photo2.png" alt="Profile Picture">
+                    <span class="profile-name">Elastic Girl
+                        <span class="profile-desc"><br/>Interior Designer</span>
+                    </span>
+                    <span class="article-title">Designed in 2020 by Elastic Girl</span>
+                </div>
+            </div>
+            <div class="footer">
+                <span class="footer-bar"></span>
+                <span class="footer-text"><p>Oh and by the way I'm Vivek</p></span>
+            </div>
+        </div>
+        
+        
+    </body>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+</html>
