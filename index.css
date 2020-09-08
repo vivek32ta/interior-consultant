@@ -143,7 +143,7 @@ html{
 
 .profile {
     position: absolute;
-    top:65%;
+    top:50%;
     left:10%;
     right:0;
     align-self: center;
@@ -214,4 +214,112 @@ html{
     line-height: 17px;
     color: #A9A9A9;
     text-align: center;
+}
+
+@media (min-width:801px)  { 
+
+    .company-name {
+        position: absolute;
+        left: 5%;
+        top: 50px;
+    }
+    .menu-btn {
+        position: absolute;
+        right: 5%;
+        top: 50px;
+        cursor: pointer;
+    }
+    .container {
+        top: 30%;
+        left: 5%;
+        right: 5%;
+    }
+    .subject {
+        font-size: 48px;
+        line-height: 61px;
+        margin-bottom: 3%;
+    }
+    .description {
+        font-size: 24px;
+        line-height: 29px;
+        width: 35%;
+    }
+    .welcome {
+        
+        font-size: 18px;
+        line-height: 22px; 
+           
+    }
+    .arrow {
+        font-size:29px;
+        margin-top: 4.7%;
+        margin-left: 0.5%
+    }
+    .post-container {
+        display: inline-block;
+        position: absolute;
+        top:0;
+        right:0;
+        max-width: 60%;
+        max-height: 50%;
+    }
+    .bg-image {
+        margin-top:0;
+    }
+    .profile {
+        position: absolute;
+        top:130%;
+        left:20%;
+        right:0;
+        min-height:50%
+    }
+    .profile-name {
+        position: absolute;
+        left: 30%;
+        top: 30%;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .profile-desc {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .article-title {
+        font-size: 24px;
+        line-height: 31px;
+        position: relative;
+        top: 18vh;
+        left: 8%;
+        margin: 2px;
+        margin-bottom:20px;
+    }
+    .footer{
+        position: absolute;
+        bottom: -20px;
+        width:100%;
+    }
+    .footer-bar {
+        display: none;
+    }
+
+    .overlay .closebtn {
+        top: 50px;
+        right: 5%;
+    }
+    .overlay a {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 70px;
+    
+        padding-bottom: 32px;
+    }
+    .overlay-content {
+        position: relative;
+        top: 20%;
+        margin-top: 30px;
+    }
+
+
 }
